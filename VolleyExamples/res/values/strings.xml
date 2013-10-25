@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="generic_server_down">无法连接到服务器</string>
+    <string name="no_internet">没有有效网络连接，请检查网络设置</string>
+    <string name="generic_error">网络请求错误</string>
+    <string name="app_name">VolleyExamples</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="simple_request">最简单请求</string>
+    <string name="get_post_params">带参数的get/post请求</string>
+    <string name="json_request">json请求</string>
+    <string name="title_activity_simple_request">SimpleRequestActivity</string>
+    <string name="title_activity_params_request">ParamsRequestActivity</string>
+    <string name="start_request">开始请求</string>
+    <string name="first_param">第一个参数</string>
+    <string name="second_param">第二个参数</string>
+    <string name="start_get_request">开始get请求</string>
+    <string name="start_post_request">开始post请求</string>
+    <string name="title_activity_json_request">JsonRequestActivity</string>
+    <string name="execute_json_request">开始进行Json请求</string>
+    <string name="title_activity_gson">GsonActivity</string>
+    <string name="gson_request">格式化Json请求</string>
+    <string name="fastjson_request">Fastjson请求</string>
+    <string name="header_request">带Header参数的GET请求</string>
+    <string name="header_params_request">带有Header和params的POST请求</string>
+    <string name="title_activity_header_request">HeaderRequestActivity</string>
+    <string name="title_activity_header_params">HeaderParamsActivity</string>
+    <string name="title_activity_image_load">ImageLoadActivity</string>
+    <string name="image_load_request">加载网络图片</string>
+    <string name="execute_image_load_request">开始加载网络图片</string>
+    <string name="image_load_error_request">开始加载网络图片(失败情况)</string>
+    <string name="https_request">HTTPS请求</string>
+    <string name="title_activity_https">HttpsActivity</string>
+    <string name="list_request">列表图片动态加载 （NetWorkImageView      ）</string>
+    <string name="title_activity_list_request">ListRequestActivity</string>
+
+</resources>

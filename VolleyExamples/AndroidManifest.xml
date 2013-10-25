@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.stormgens.volleyexamples"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.stormgens.volleyexamples.app.VolleyExamplesApp"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.stormgens.volleyexamples.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.stormgens.volleyexamples.SimpleRequestActivity"
+            android:label="@string/title_activity_simple_request" >
+        </activity>
+        <activity
+            android:name="com.stormgens.volleyexamples.ParamsRequestActivity"
+            android:label="@string/title_activity_params_request" >
+        </activity>
+        <activity
+            android:name="com.stormgens.volleyexamples.JsonRequestActivity"
+            android:label="@string/title_activity_json_request" >
+        </activity>
+        <activity
+            android:name="com.stormgens.volleyexamples.GsonActivity"
+            android:label="@string/title_activity_gson" >
+        </activity>
+        <activity
+            android:name="com.stormgens.volleyexamples.HeaderRequestActivity"
+            android:label="@string/title_activity_header_request" >
+        </activity>
+        <activity
+            android:name="com.stormgens.volleyexamples.HeaderParamsRequestActivity"
+            android:label="@string/title_activity_header_params" >
+        </activity>
+        <activity
+            android:name="com.stormgens.volleyexamples.ImageLoadActivity"
+            android:label="@string/title_activity_image_load" >
+        </activity>
+        <activity
+            android:name="com.stormgens.volleyexamples.HttpsActivity"
+            android:label="@string/title_activity_https" >
+        </activity>
+        <activity
+            android:name="com.stormgens.volleyexamples.ListRequestActivity"
+            android:label="@string/title_activity_list_request" >
+        </activity>
+    </application>
+
+</manifest>
